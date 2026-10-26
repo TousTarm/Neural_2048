@@ -45,8 +45,6 @@ venv/bin/pip install pygame
 venv/bin/python original/2048_pygame.py
 ```
 
-**Known issue:** `train.py` imports `discord` but calls `discord_logger.send_new_record_notification(...)`, so training stops with `NameError` at the end of the first game. Changing the import to `import discord as discord_logger` fixes the name.
-
 ## Tests
 
 There are no automated tests. `test.py` is a manual check of the network's output shape.
