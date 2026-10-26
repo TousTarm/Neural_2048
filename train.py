@@ -7,7 +7,7 @@ from collections import deque
 import os
 
 # Tvůj nový modul pro Discord
-import discord
+import discord as discord_logger
 
 from engine import GameEngine 
 from ai import NeuralNetwork, prepare_grid_for_ai
